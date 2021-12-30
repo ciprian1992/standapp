@@ -17,12 +17,22 @@
 		}
 
 		h1,
+    h3,
 		h5 {
 			color: $light;
 		}
 
 		h1 {
 			line-height: 70px;
+			font-weight: 600;
+			text-transform: uppercase;
+			letter-spacing: .06em;
+			margin-bottom: 30px;
+		}
+
+
+		h3 {
+			line-height: 40px;
 			font-weight: 600;
 			text-transform: uppercase;
 			letter-spacing: .06em;
@@ -262,6 +272,7 @@
 	}
 
 	.content-block {
+    text-align: center;
 
 		h2,
 		p {
